@@ -1,0 +1,26 @@
+*.pem
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Cached files? Came up while working on ssh in VS Code
+._*
+/*/._*
+**/._*
+
+# Python compiled files
+*.save
+*.pyc
+*.py~
+/__pycache__
+**/*.pyc
+
+.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local

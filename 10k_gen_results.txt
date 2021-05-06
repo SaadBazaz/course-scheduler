@@ -1,0 +1,550 @@
+========================= Before:
+Mom genes:
+c305	Wednesday	10	11	CS218	Usman Rashid	['Shahzad Rashid', 'Bano', 'Maimoona Qasim', 'Muhammad bin Aqeel', 'Aqeel Usman ']	.
+c310	Thursday	11	12	CS218	Sanaa Ilyas	['Bano', 'Shahzad Rashid']	.
+c303	Wednesday	11	14	CS220	Usman Rashid	['Sanaa Rassol', 'Maimoona Qasim', 'Shahzad Rashid', 'Bano', 'Aqeel Usman ', 'Muhammad bin Aqeel']	.
+c306	Wednesday	12	14	CS221	Usman Rashid	['Shahzad Rashid', 'Bano', 'Aqeel Usman ']	.
+c303	Sunday	13	16	CS218	Muhammad bin Qasim	['Muhammad bin Aqeel', 'Maimoona Qasim', 'Shahzad Rashid']	.
+c302	Monday	12	16	CS218	Sanaa Ilyas	['Bano', 'Shahzad Rashid', 'Sanaa Rassol', 'Muhammad bin Aqeel']	.
+c304	Monday	15	17	CS217	Maimoona Rassol	['Maimoona Qasim', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Sanaa Rassol', 'Shahzad Rashid']	.
+c307	Friday	16	16	CS222	Maimoona Rassol	['Shahzad Rashid', 'Muhammad bin Aqeel', 'Bano']	.
+c306	Friday	15	17	CS221	Ayesha Bano	['Bano', 'Shahzad Rashid', 'Sanaa Rassol', 'Muhammad bin Aqeel']	.
+c309	Saturday	17	17	CS219	Muhammad bin Qasim	['Sanaa Rassol', 'Bano', 'Shahzad Rashid', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Maimoona Qasim']	.
+c307	Sunday	11	14	CS218	Usman Rashid	['Aqeel Usman ', 'Sanaa Rassol', 'Maimoona Qasim', 'Muhammad bin Aqeel', 'Shahzad Rashid', 'Bano']	.
+c301	Wednesday	13	16	CS221	Maimoona Rassol	['Muhammad bin Aqeel', 'Shahzad Rashid', 'Aqeel Usman ', 'Maimoona Qasim', 'Bano', 'Sanaa Rassol']	.
+c307	Wednesday	13	15	CS219	Maimoona Rassol	['Bano', 'Shahzad Rashid']	.
+c309	Saturday	9	10	CS218	Muhammad bin Qasim	['Maimoona Qasim']	.
+c306	Wednesday	12	14	CS217	Maimoona Rassol	['Bano', 'Maimoona Qasim', 'Muhammad bin Aqeel', 'Sanaa Rassol', 'Aqeel Usman ']	.
+c309	Saturday	13	16	CS221	Usman Rashid	['Aqeel Usman ']	.
+c304	Wednesday	15	16	CS220	Usman Rashid	['Bano', 'Shahzad Rashid', 'Sanaa Rassol', 'Muhammad bin Aqeel']	.
+c308	Thursday	9	17	CS222	Ayesha Bano	['Sanaa Rassol', 'Maimoona Qasim']	.
+c308	Wednesday	10	11	CS222	Usman Rashid	['Sanaa Rassol']	.
+c306	Friday	15	17	CS221	Ayesha Bano	['Bano']	.
+c302	Tuesday	17	17	CS217	Sanaa Ilyas	['Bano', 'Maimoona Qasim', 'Sanaa Rassol']	.
+c301	Saturday	10	13	CS218	Sanaa Ilyas	['Maimoona Qasim', 'Muhammad bin Aqeel', 'Shahzad Rashid', 'Aqeel Usman ', 'Sanaa Rassol']	.
+c301	Monday	14	17	CS217	Ayesha Bano	['Maimoona Qasim', 'Sanaa Rassol', 'Bano']	.
+c301	Monday	16	17	CS221	Ayesha Bano	['Bano', 'Aqeel Usman ', 'Sanaa Rassol']	.
+c307	Friday	10	10	CS221	Sanaa Ilyas	['Maimoona Qasim']	.
+c307	Thursday	12	15	CS218	Sanaa Ilyas	['Muhammad bin Aqeel', 'Aqeel Usman ', 'Shahzad Rashid', 'Bano', 'Sanaa Rassol', 'Maimoona Qasim']	.
+c305	Friday	11	12	CS220	Muhammad bin Qasim	['Aqeel Usman ', 'Muhammad bin Aqeel', 'Shahzad Rashid', 'Bano', 'Sanaa Rassol', 'Maimoona Qasim']	.
+c303	Wednesday	16	17	CS219	Sanaa Ilyas	['Bano']	.
+c306	Sunday	16	17	CS219	Sanaa Ilyas	['Maimoona Qasim', 'Bano', 'Shahzad Rashid', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Sanaa Rassol']	.
+c306	Sunday	13	14	CS219	Muhammad bin Qasim	['Maimoona Qasim', 'Shahzad Rashid', 'Muhammad bin Aqeel', 'Aqeel Usman ', 'Bano', 'Sanaa Rassol']	.
+c303	Monday	10	13	CS217	Sanaa Ilyas	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Aqeel Usman ', 'Maimoona Qasim', 'Shahzad Rashid', 'Bano']	.
+c301	Thursday	12	15	CS219	Maimoona Rassol	['Aqeel Usman ']	.
+c302	Friday	15	16	CS219	Usman Rashid	['Maimoona Qasim', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Bano', 'Shahzad Rashid']	.
+c306	Monday	16	16	CS219	Maimoona Rassol	['Bano', 'Aqeel Usman ']	.
+c309	Tuesday	15	16	CS218	Maimoona Rassol	['Bano']	.
+c302	Tuesday	12	14	CS221	Usman Rashid	['Shahzad Rashid', 'Bano', 'Muhammad bin Aqeel']	.
+c310	Thursday	11	11	CS218	Muhammad bin Qasim	['Maimoona Qasim', 'Bano']	.
+c301	Friday	11	11	CS217	Maimoona Rassol	['Shahzad Rashid', 'Aqeel Usman ']	.
+c302	Wednesday	13	13	CS222	Ayesha Bano	['Sanaa Rassol', 'Maimoona Qasim', 'Bano', 'Muhammad bin Aqeel']	.
+c308	Thursday	12	17	CS222	Aqeel Shahzad	['Aqeel Usman ', 'Shahzad Rashid', 'Muhammad bin Aqeel']	.
+c305	Friday	15	17	CS222	Aqeel Shahzad	['Maimoona Qasim', 'Muhammad bin Aqeel', 'Sanaa Rassol', 'Bano', 'Aqeel Usman ', 'Shahzad Rashid']	.
+c310	Thursday	11	17	CS222	Sanaa Ilyas	['Muhammad bin Aqeel', 'Bano']	.
+Mom Fitness Value:  1060
+
+
+Dad genes:
+c302	Friday	17	17	CS220	Usman Rashid	['Sanaa Rassol']	.
+c302	Saturday	9	14	CS217	Aqeel Shahzad	['Muhammad bin Aqeel', 'Aqeel Usman ', 'Bano']	.
+c308	Thursday	11	13	CS222	Usman Rashid	['Shahzad Rashid', 'Maimoona Qasim', 'Sanaa Rassol', 'Bano', 'Aqeel Usman ']	.
+c303	Friday	15	17	CS221	Maimoona Rassol	['Bano', 'Sanaa Rassol', 'Aqeel Usman ']	.
+c308	Monday	12	12	CS222	Muhammad bin Qasim	['Bano']	.
+c307	Wednesday	12	17	CS220	Sanaa Ilyas	['Bano', 'Maimoona Qasim', 'Aqeel Usman ', 'Shahzad Rashid', 'Muhammad bin Aqeel', 'Sanaa Rassol']	.
+c307	Sunday	13	16	CS221	Aqeel Shahzad	['Sanaa Rassol', 'Bano', 'Maimoona Qasim', 'Muhammad bin Aqeel', 'Aqeel Usman ', 'Shahzad Rashid']	.
+c310	Tuesday	14	16	CS217	Usman Rashid	['Shahzad Rashid', 'Bano']	.
+c310	Tuesday	14	14	CS219	Sanaa Ilyas	['Maimoona Qasim', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Sanaa Rassol', 'Bano', 'Shahzad Rashid']	.
+c307	Monday	10	17	CS217	Sanaa Ilyas	['Shahzad Rashid', 'Muhammad bin Aqeel', 'Sanaa Rassol', 'Bano', 'Maimoona Qasim', 'Aqeel Usman ']	.
+c307	Tuesday	13	16	CS218	Sanaa Ilyas	['Aqeel Usman ', 'Bano', 'Sanaa Rassol', 'Muhammad bin Aqeel', 'Shahzad Rashid', 'Maimoona Qasim']	.
+c304	Monday	13	17	CS219	Sanaa Ilyas	['Shahzad Rashid']	.
+c309	Friday	12	13	CS220	Aqeel Shahzad	['Maimoona Qasim', 'Muhammad bin Aqeel', 'Aqeel Usman ', 'Shahzad Rashid', 'Sanaa Rassol', 'Bano']	.
+c305	Monday	9	17	CS218	Sanaa Ilyas	['Sanaa Rassol']	.
+c309	Saturday	12	13	CS218	Maimoona Rassol	['Muhammad bin Aqeel']	.
+c304	Wednesday	14	15	CS221	Usman Rashid	['Muhammad bin Aqeel', 'Aqeel Usman ', 'Maimoona Qasim', 'Bano', 'Sanaa Rassol']	.
+c310	Friday	14	15	CS220	Usman Rashid	['Shahzad Rashid', 'Maimoona Qasim']	.
+c304	Wednesday	9	12	CS219	Usman Rashid	['Maimoona Qasim', 'Sanaa Rassol', 'Muhammad bin Aqeel', 'Aqeel Usman ', 'Shahzad Rashid']	.
+c304	Sunday	11	13	CS221	Aqeel Shahzad	['Shahzad Rashid']	.
+c301	Tuesday	10	14	CS220	Ayesha Bano	['Muhammad bin Aqeel', 'Maimoona Qasim', 'Sanaa Rassol', 'Shahzad Rashid', 'Bano', 'Aqeel Usman ']	.
+c307	Wednesday	12	14	CS220	Ayesha Bano	['Muhammad bin Aqeel', 'Maimoona Qasim']	.
+c306	Friday	16	16	CS221	Sanaa Ilyas	['Muhammad bin Aqeel', 'Shahzad Rashid', 'Aqeel Usman ', 'Maimoona Qasim', 'Bano', 'Sanaa Rassol']	.
+c306	Thursday	15	15	CS218	Sanaa Ilyas	['Muhammad bin Aqeel', 'Bano', 'Shahzad Rashid', 'Sanaa Rassol']	.
+c308	Wednesday	10	13	CS222	Usman Rashid	['Maimoona Qasim', 'Shahzad Rashid', 'Muhammad bin Aqeel', 'Aqeel Usman ']	.
+c308	Thursday	11	16	CS218	Maimoona Rassol	['Sanaa Rassol', 'Bano', 'Aqeel Usman ', 'Maimoona Qasim', 'Shahzad Rashid', 'Muhammad bin Aqeel']	.
+c302	Sunday	9	9	CS218	Muhammad bin Qasim	['Muhammad bin Aqeel', 'Sanaa Rassol', 'Aqeel Usman ', 'Bano', 'Maimoona Qasim']	.
+c306	Tuesday	14	16	CS218	Ayesha Bano	['Aqeel Usman ', 'Maimoona Qasim', 'Shahzad Rashid', 'Muhammad bin Aqeel', 'Bano']	.
+c308	Sunday	17	17	CS222	Ayesha Bano	['Shahzad Rashid']	.
+c304	Thursday	13	15	CS220	Muhammad bin Qasim	['Shahzad Rashid', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Maimoona Qasim', 'Bano', 'Sanaa Rassol']	.
+c303	Thursday	13	13	CS220	Usman Rashid	['Aqeel Usman ', 'Shahzad Rashid']	.
+c303	Tuesday	17	17	CS217	Muhammad bin Qasim	['Muhammad bin Aqeel', 'Aqeel Usman ', 'Sanaa Rassol', 'Maimoona Qasim', 'Shahzad Rashid']	.
+c302	Monday	12	13	CS217	Ayesha Bano	['Muhammad bin Aqeel', 'Aqeel Usman ']	.
+c307	Thursday	14	17	CS217	Sanaa Ilyas	['Shahzad Rashid', 'Muhammad bin Aqeel', 'Bano', 'Aqeel Usman ', 'Maimoona Qasim']	.
+c305	Sunday	9	9	CS220	Usman Rashid	['Sanaa Rassol', 'Bano']	.
+c301	Saturday	13	14	CS221	Maimoona Rassol	['Aqeel Usman ', 'Maimoona Qasim', 'Bano', 'Shahzad Rashid', 'Sanaa Rassol']	.
+c308	Wednesday	10	10	CS220	Maimoona Rassol	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Shahzad Rashid', 'Aqeel Usman ', 'Maimoona Qasim', 'Bano']	.
+c303	Saturday	13	13	CS222	Maimoona Rassol	['Shahzad Rashid', 'Muhammad bin Aqeel']	.
+c301	Tuesday	15	15	CS219	Maimoona Rassol	['Aqeel Usman ', 'Muhammad bin Aqeel', 'Maimoona Qasim', 'Shahzad Rashid', 'Bano', 'Sanaa Rassol']	.
+c305	Sunday	10	16	CS220	Maimoona Rassol	['Maimoona Qasim', 'Aqeel Usman ', 'Bano']	.
+c309	Wednesday	12	14	CS220	Ayesha Bano	['Shahzad Rashid']	.
+c303	Wednesday	14	16	CS222	Sanaa Ilyas	['Maimoona Qasim', 'Muhammad bin Aqeel', 'Bano', 'Sanaa Rassol', 'Shahzad Rashid']	.
+c303	Tuesday	10	10	CS219	Ayesha Bano	['Aqeel Usman ', 'Shahzad Rashid', 'Sanaa Rassol', 'Maimoona Qasim', 'Bano', 'Muhammad bin Aqeel']	.
+c301	Tuesday	15	15	CS218	Aqeel Shahzad	['Shahzad Rashid', 'Bano', 'Muhammad bin Aqeel', 'Aqeel Usman ']	.
+c309	Thursday	13	17	CS218	Usman Rashid	['Shahzad Rashid', 'Aqeel Usman ']	.
+c302	Tuesday	15	17	CS222	Ayesha Bano	['Shahzad Rashid', 'Maimoona Qasim', 'Bano', 'Sanaa Rassol', 'Aqeel Usman ', 'Muhammad bin Aqeel']	.
+c303	Saturday	12	12	CS222	Usman Rashid	['Shahzad Rashid', 'Aqeel Usman ']	.
+c304	Thursday	10	17	CS217	Maimoona Rassol	['Muhammad bin Aqeel', 'Aqeel Usman ', 'Maimoona Qasim', 'Sanaa Rassol', 'Shahzad Rashid']	.
+c302	Wednesday	9	13	CS217	Usman Rashid	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Maimoona Qasim', 'Shahzad Rashid']	.
+c305	Tuesday	9	16	CS222	Muhammad bin Qasim	['Aqeel Usman ', 'Shahzad Rashid']	.
+Dad Fitness Value:  950
+
+
+
+
+Current generation..: 0
+Best solution so far: 1250
+
+Current generation..: 100
+Best solution so far: 1410
+
+Current generation..: 200
+Best solution so far: 1410
+
+Current generation..: 300
+Best solution so far: 1410
+
+Current generation..: 400
+Best solution so far: 1410
+
+Current generation..: 500
+Best solution so far: 1410
+
+Current generation..: 600
+Best solution so far: 1410
+
+Current generation..: 700
+Best solution so far: 1410
+
+Current generation..: 800
+Best solution so far: 1410
+
+Current generation..: 900
+Best solution so far: 1410
+
+Current generation..: 1000
+Best solution so far: 1410
+
+Current generation..: 1100
+Best solution so far: 1410
+
+Current generation..: 1200
+Best solution so far: 1410
+
+Current generation..: 1300
+Best solution so far: 1410
+
+Current generation..: 1400
+Best solution so far: 1410
+
+Current generation..: 1500
+Best solution so far: 1410
+
+Current generation..: 1600
+Best solution so far: 1510
+
+Current generation..: 1700
+Best solution so far: 1510
+
+Current generation..: 1800
+Best solution so far: 1510
+
+Current generation..: 1900
+Best solution so far: 1510
+
+Current generation..: 2000
+Best solution so far: 1510
+
+Current generation..: 2100
+Best solution so far: 1510
+
+Current generation..: 2200
+Best solution so far: 1510
+
+Current generation..: 2300
+Best solution so far: 1510
+
+Current generation..: 2400
+Best solution so far: 1510
+
+Current generation..: 2500
+Best solution so far: 1510
+
+Current generation..: 2600
+Best solution so far: 1510
+
+Current generation..: 2700
+Best solution so far: 1510
+
+Current generation..: 2800
+Best solution so far: 1510
+
+Current generation..: 2900
+Best solution so far: 1510
+
+Current generation..: 3000
+Best solution so far: 1510
+
+Current generation..: 3100
+Best solution so far: 1510
+
+Current generation..: 3200
+Best solution so far: 1510
+
+Current generation..: 3300
+Best solution so far: 1510
+
+Current generation..: 3400
+Best solution so far: 1510
+
+Current generation..: 3500
+Best solution so far: 1510
+
+Current generation..: 3600
+Best solution so far: 1510
+
+Current generation..: 3700
+Best solution so far: 1510
+
+Current generation..: 3800
+Best solution so far: 1510
+
+Current generation..: 3900
+Best solution so far: 1510
+
+Current generation..: 4000
+Best solution so far: 1510
+
+Current generation..: 4100
+Best solution so far: 1510
+
+Current generation..: 4200
+Best solution so far: 1510
+
+Current generation..: 4300
+Best solution so far: 1510
+
+Current generation..: 4400
+Best solution so far: 1510
+
+Current generation..: 4500
+Best solution so far: 1510
+
+Current generation..: 4600
+Best solution so far: 1510
+
+Current generation..: 4700
+Best solution so far: 1510
+
+Current generation..: 4800
+Best solution so far: 1510
+
+Current generation..: 4900
+Best solution so far: 1510
+
+Current generation..: 5000
+Best solution so far: 1510
+
+Current generation..: 5100
+Best solution so far: 1510
+
+Current generation..: 5200
+Best solution so far: 1510
+
+Current generation..: 5300
+Best solution so far: 1510
+
+Current generation..: 5400
+Best solution so far: 1510
+
+Current generation..: 5500
+Best solution so far: 1510
+
+Current generation..: 5600
+Best solution so far: 1510
+
+Current generation..: 5700
+Best solution so far: 1510
+
+Current generation..: 5800
+Best solution so far: 1510
+
+Current generation..: 5900
+Best solution so far: 1510
+
+Current generation..: 6000
+Best solution so far: 1510
+
+Current generation..: 6100
+Best solution so far: 1510
+
+Current generation..: 6200
+Best solution so far: 1510
+
+Current generation..: 6300
+Best solution so far: 1510
+
+Current generation..: 6400
+Best solution so far: 1510
+
+Current generation..: 6500
+Best solution so far: 1510
+
+Current generation..: 6600
+Best solution so far: 1510
+
+Current generation..: 6700
+Best solution so far: 1510
+
+Current generation..: 6800
+Best solution so far: 1510
+
+Current generation..: 6900
+Best solution so far: 1510
+
+Current generation..: 7000
+Best solution so far: 1510
+
+Current generation..: 7100
+Best solution so far: 1510
+
+Current generation..: 7200
+Best solution so far: 1510
+
+Current generation..: 7300
+Best solution so far: 1510
+
+Current generation..: 7400
+Best solution so far: 1510
+
+Current generation..: 7500
+Best solution so far: 1510
+
+Current generation..: 7600
+Best solution so far: 1510
+
+Current generation..: 7700
+Best solution so far: 1510
+
+Current generation..: 7800
+Best solution so far: 1510
+
+Current generation..: 7900
+Best solution so far: 1510
+
+Current generation..: 8000
+Best solution so far: 1510
+
+Current generation..: 8100
+Best solution so far: 1510
+
+Current generation..: 8200
+Best solution so far: 1510
+
+Current generation..: 8300
+Best solution so far: 1510
+
+Current generation..: 8400
+Best solution so far: 1510
+
+Current generation..: 8500
+Best solution so far: 1510
+
+Current generation..: 8600
+Best solution so far: 1510
+
+Current generation..: 8700
+Best solution so far: 1510
+
+Current generation..: 8800
+Best solution so far: 1510
+
+Current generation..: 8900
+Best solution so far: 1510
+
+Current generation..: 9000
+Best solution so far: 1510
+
+Current generation..: 9100
+Best solution so far: 1510
+
+Current generation..: 9200
+Best solution so far: 1510
+
+Current generation..: 9300
+Best solution so far: 1510
+
+Current generation..: 9400
+Best solution so far: 1510
+
+Current generation..: 9500
+Best solution so far: 1510
+
+Current generation..: 9600
+Best solution so far: 1510
+
+Current generation..: 9700
+Best solution so far: 1510
+
+Current generation..: 9800
+Best solution so far: 1510
+
+Current generation..: 9900
+Best solution so far: 1510
+
+
+
+========================= After 1000 iterations:
+Mom genes:
+c310	Wednesday	16	16	CS222	Muhammad bin Qasim	['Bano', 'Sanaa Rassol', 'Aqeel Usman ', 'Shahzad Rashid', 'Muhammad bin Aqeel']	.
+c305	Sunday	17	17	CS219	Usman Rashid	['Aqeel Usman ']	.
+c305	Saturday	17	17	CS217	Muhammad bin Qasim	['Maimoona Qasim', 'Sanaa Rassol', 'Aqeel Usman ', 'Shahzad Rashid']	.
+c304	Wednesday	13	15	CS218	Muhammad bin Qasim	['Muhammad bin Aqeel', 'Maimoona Qasim', 'Shahzad Rashid', 'Sanaa Rassol']	.
+c309	Monday	14	14	CS217	Sanaa Ilyas	['Bano', 'Maimoona Qasim', 'Sanaa Rassol', 'Shahzad Rashid', 'Muhammad bin Aqeel', 'Aqeel Usman ']	.
+c309	Tuesday	16	17	CS217	Muhammad bin Qasim	['Sanaa Rassol', 'Aqeel Usman ', 'Maimoona Qasim', 'Shahzad Rashid', 'Bano']	.
+c301	Wednesday	15	16	CS217	Aqeel Shahzad	['Shahzad Rashid']	.
+c302	Monday	11	17	CS221	Maimoona Rassol	['Aqeel Usman ', 'Shahzad Rashid']	.
+c306	Friday	17	17	CS217	Muhammad bin Qasim	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Shahzad Rashid', 'Maimoona Qasim']	.
+c302	Sunday	14	15	CS221	Usman Rashid	['Muhammad bin Aqeel', 'Maimoona Qasim', 'Bano', 'Shahzad Rashid', 'Sanaa Rassol', 'Aqeel Usman ']	.
+c306	Tuesday	16	16	CS217	Sanaa Ilyas	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Bano', 'Maimoona Qasim', 'Aqeel Usman ', 'Shahzad Rashid']	.
+c310	Monday	10	10	CS218	Muhammad bin Qasim	['Aqeel Usman ', 'Sanaa Rassol', 'Shahzad Rashid', 'Muhammad bin Aqeel']	.
+c303	Wednesday	13	14	CS221	Aqeel Shahzad	['Bano']	.
+c301	Friday	9	10	CS219	Aqeel Shahzad	['Sanaa Rassol', 'Shahzad Rashid']	.
+c306	Wednesday	15	15	CS222	Muhammad bin Qasim	['Aqeel Usman ', 'Bano', 'Sanaa Rassol', 'Muhammad bin Aqeel', 'Shahzad Rashid']	.
+c307	Sunday	17	17	CS218	Ayesha Bano	['Maimoona Qasim', 'Muhammad bin Aqeel', 'Bano']	.
+c303	Friday	10	10	CS219	Usman Rashid	['Aqeel Usman ', 'Shahzad Rashid', 'Sanaa Rassol', 'Maimoona Qasim', 'Bano']	.
+c309	Wednesday	12	16	CS218	Usman Rashid	['Aqeel Usman ', 'Muhammad bin Aqeel', 'Bano', 'Sanaa Rassol', 'Maimoona Qasim']	.
+c304	Monday	14	16	CS219	Usman Rashid	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Bano', 'Aqeel Usman ', 'Shahzad Rashid', 'Maimoona Qasim']	.
+c308	Saturday	12	13	CS218	Sanaa Ilyas	['Sanaa Rassol']	.
+c310	Monday	12	16	CS217	Ayesha Bano	['Bano', 'Sanaa Rassol', 'Aqeel Usman ', 'Shahzad Rashid', 'Muhammad bin Aqeel', 'Maimoona Qasim']	.
+c307	Friday	11	13	CS218	Maimoona Rassol	['Aqeel Usman ', 'Shahzad Rashid', 'Bano']	.
+c307	Saturday	10	12	CS221	Sanaa Ilyas	['Sanaa Rassol', 'Maimoona Qasim', 'Shahzad Rashid', 'Aqeel Usman ', 'Bano', 'Muhammad bin Aqeel']	.
+c304	Tuesday	16	17	CS219	Ayesha Bano	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Maimoona Qasim', 'Shahzad Rashid', 'Aqeel Usman ']	.
+c304	Monday	15	17	CS220	Ayesha Bano	['Maimoona Qasim', 'Aqeel Usman ', 'Bano', 'Shahzad Rashid']	.
+c301	Thursday	14	17	CS217	Muhammad bin Qasim	['Aqeel Usman ', 'Shahzad Rashid', 'Bano', 'Sanaa Rassol']	.
+c301	Tuesday	16	17	CS220	Sanaa Ilyas	['Shahzad Rashid', 'Bano', 'Aqeel Usman ']	.
+c301	Sunday	10	12	CS220	Ayesha Bano	['Maimoona Qasim', 'Muhammad bin Aqeel', 'Sanaa Rassol', 'Shahzad Rashid', 'Bano', 'Aqeel Usman ']	.
+c305	Sunday	9	14	CS222	Ayesha Bano	['Muhammad bin Aqeel']	.
+c310	Saturday	15	15	CS219	Ayesha Bano	['Maimoona Qasim', 'Aqeel Usman ', 'Bano', 'Sanaa Rassol', 'Muhammad bin Aqeel']	.
+c305	Wednesday	17	17	CS217	Aqeel Shahzad	['Bano', 'Muhammad bin Aqeel', 'Maimoona Qasim']	.
+c301	Monday	11	14	CS219	Ayesha Bano	['Maimoona Qasim', 'Bano', 'Sanaa Rassol']	.
+c303	Monday	16	16	CS221	Sanaa Ilyas	['Shahzad Rashid', 'Maimoona Qasim']	.
+c308	Monday	17	17	CS221	Sanaa Ilyas	['Muhammad bin Aqeel', 'Aqeel Usman ', 'Sanaa Rassol', 'Shahzad Rashid']	.
+c307	Thursday	11	12	CS221	Usman Rashid	['Shahzad Rashid', 'Aqeel Usman ', 'Bano', 'Sanaa Rassol']	.
+c305	Thursday	15	16	CS218	Aqeel Shahzad	['Aqeel Usman ', 'Maimoona Qasim', 'Sanaa Rassol', 'Shahzad Rashid', 'Bano']	.
+c301	Saturday	17	17	CS218	Aqeel Shahzad	['Sanaa Rassol', 'Maimoona Qasim']	.
+c304	Thursday	15	17	CS222	Usman Rashid	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Maimoona Qasim', 'Shahzad Rashid', 'Bano']	.
+c303	Friday	13	16	CS222	Usman Rashid	['Aqeel Usman ', 'Muhammad bin Aqeel', 'Sanaa Rassol', 'Shahzad Rashid', 'Bano', 'Maimoona Qasim']	.
+c307	Thursday	13	14	CS219	Usman Rashid	['Muhammad bin Aqeel', 'Sanaa Rassol', 'Aqeel Usman ']	.
+c310	Tuesday	12	15	CS219	Usman Rashid	['Shahzad Rashid', 'Sanaa Rassol', 'Maimoona Qasim', 'Aqeel Usman ']	.
+c302	Wednesday	17	17	CS222	Maimoona Rassol	['Aqeel Usman ', 'Maimoona Qasim', 'Sanaa Rassol']	.
+c305	Friday	15	17	CS221	Muhammad bin Qasim	['Bano', 'Sanaa Rassol', 'Shahzad Rashid', 'Muhammad bin Aqeel', 'Aqeel Usman ', 'Maimoona Qasim']	.
+c304	Monday	13	13	CS220	Sanaa Ilyas	['Shahzad Rashid', 'Aqeel Usman ', 'Maimoona Qasim']	.
+c306	Saturday	15	15	CS217	Muhammad bin Qasim	['Bano', 'Shahzad Rashid']	.
+c305	Saturday	13	13	CS219	Muhammad bin Qasim	['Shahzad Rashid', 'Aqeel Usman ']	.
+c304	Sunday	9	15	CS218	Ayesha Bano	['Bano']	.
+c304	Friday	12	13	CS219	Ayesha Bano	['Shahzad Rashid', 'Sanaa Rassol']	.
+c309	Monday	13	16	CS218	Aqeel Shahzad	['Bano', 'Maimoona Qasim', 'Aqeel Usman ', 'Shahzad Rashid', 'Muhammad bin Aqeel']	.
+Mom Fitness Value:  890
+
+
+Dad genes:
+c302	Monday	16	16	CS217	Muhammad bin Qasim	['Aqeel Usman ', 'Bano']	.
+c306	Tuesday	12	13	CS218	Sanaa Ilyas	['Aqeel Usman ', 'Bano', 'Maimoona Qasim', 'Sanaa Rassol']	.
+c302	Friday	10	14	CS219	Maimoona Rassol	['Maimoona Qasim', 'Bano', 'Muhammad bin Aqeel', 'Aqeel Usman ', 'Sanaa Rassol']	.
+c305	Friday	13	14	CS222	Aqeel Shahzad	['Aqeel Usman ']	.
+c309	Friday	15	15	CS222	Sanaa Ilyas	['Maimoona Qasim', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Sanaa Rassol']	.
+c307	Thursday	10	15	CS219	Ayesha Bano	['Muhammad bin Aqeel', 'Maimoona Qasim', 'Shahzad Rashid', 'Aqeel Usman ', 'Bano']	.
+c305	Sunday	14	14	CS217	Ayesha Bano	['Bano', 'Sanaa Rassol', 'Aqeel Usman ', 'Muhammad bin Aqeel']	.
+c301	Thursday	14	17	CS219	Aqeel Shahzad	['Muhammad bin Aqeel', 'Shahzad Rashid', 'Maimoona Qasim', 'Aqeel Usman ', 'Bano']	.
+c302	Monday	17	17	CS222	Maimoona Rassol	['Sanaa Rassol', 'Shahzad Rashid', 'Bano', 'Aqeel Usman ']	.
+c308	Thursday	13	17	CS222	Usman Rashid	['Sanaa Rassol']	.
+c302	Sunday	14	16	CS220	Muhammad bin Qasim	['Muhammad bin Aqeel', 'Maimoona Qasim', 'Sanaa Rassol']	.
+c306	Monday	12	16	CS221	Sanaa Ilyas	['Muhammad bin Aqeel', 'Sanaa Rassol', 'Shahzad Rashid', 'Aqeel Usman ']	.
+c301	Sunday	11	16	CS218	Aqeel Shahzad	['Bano', 'Muhammad bin Aqeel', 'Aqeel Usman ']	.
+c304	Saturday	13	14	CS218	Aqeel Shahzad	['Maimoona Qasim', 'Aqeel Usman ', 'Bano', 'Sanaa Rassol', 'Shahzad Rashid']	.
+c303	Wednesday	11	17	CS218	Ayesha Bano	['Bano', 'Muhammad bin Aqeel']	.
+c302	Sunday	10	13	CS218	Ayesha Bano	['Shahzad Rashid', 'Muhammad bin Aqeel', 'Bano']	.
+c310	Wednesday	10	15	CS220	Maimoona Rassol	['Aqeel Usman ', 'Shahzad Rashid']	.
+c306	Friday	17	17	CS217	Usman Rashid	['Aqeel Usman ']	.
+c302	Friday	14	15	CS217	Aqeel Shahzad	['Muhammad bin Aqeel', 'Aqeel Usman ']	.
+c305	Thursday	15	16	CS222	Aqeel Shahzad	['Sanaa Rassol']	.
+c308	Wednesday	9	14	CS221	Sanaa Ilyas	['Bano', 'Sanaa Rassol', 'Muhammad bin Aqeel', 'Shahzad Rashid', 'Maimoona Qasim', 'Aqeel Usman ']	.
+c304	Tuesday	16	17	CS218	Sanaa Ilyas	['Muhammad bin Aqeel']	.
+c301	Friday	16	17	CS219	Usman Rashid	['Aqeel Usman ', 'Sanaa Rassol']	.
+c303	Saturday	12	17	CS222	Muhammad bin Qasim	['Bano', 'Maimoona Qasim', 'Muhammad bin Aqeel', 'Sanaa Rassol']	.
+c303	Monday	13	17	CS222	Usman Rashid	['Shahzad Rashid', 'Muhammad bin Aqeel', 'Maimoona Qasim', 'Bano', 'Aqeel Usman ']	.
+c306	Monday	17	17	CS222	Sanaa Ilyas	['Sanaa Rassol', 'Bano']	.
+c303	Sunday	17	17	CS220	Usman Rashid	['Maimoona Qasim', 'Muhammad bin Aqeel', 'Sanaa Rassol', 'Bano', 'Shahzad Rashid']	.
+c302	Monday	17	17	CS221	Aqeel Shahzad	['Bano']	.
+c309	Tuesday	10	14	CS217	Usman Rashid	['Muhammad bin Aqeel', 'Maimoona Qasim']	.
+c303	Tuesday	9	9	CS222	Muhammad bin Qasim	['Shahzad Rashid', 'Maimoona Qasim', 'Muhammad bin Aqeel', 'Sanaa Rassol', 'Bano']	.
+c309	Monday	9	17	CS219	Ayesha Bano	['Maimoona Qasim', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Bano', 'Sanaa Rassol']	.
+c306	Friday	16	16	CS222	Muhammad bin Qasim	['Maimoona Qasim', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Shahzad Rashid', 'Bano', 'Sanaa Rassol']	.
+c310	Sunday	11	15	CS217	Sanaa Ilyas	['Bano', 'Muhammad bin Aqeel', 'Shahzad Rashid']	.
+c306	Friday	16	16	CS222	Aqeel Shahzad	['Bano', 'Aqeel Usman ']	.
+c305	Thursday	10	13	CS219	Ayesha Bano	['Sanaa Rassol', 'Bano']	.
+c309	Saturday	9	15	CS219	Aqeel Shahzad	['Shahzad Rashid', 'Aqeel Usman ', 'Maimoona Qasim', 'Sanaa Rassol', 'Bano', 'Muhammad bin Aqeel']	.
+c301	Monday	13	15	CS219	Aqeel Shahzad	['Aqeel Usman ', 'Shahzad Rashid', 'Sanaa Rassol', 'Muhammad bin Aqeel']	.
+c310	Friday	16	17	CS219	Aqeel Shahzad	['Bano', 'Shahzad Rashid', 'Aqeel Usman ']	.
+c303	Sunday	13	14	CS220	Muhammad bin Qasim	['Maimoona Qasim']	.
+c301	Friday	15	16	CS218	Sanaa Ilyas	['Aqeel Usman ', 'Shahzad Rashid', 'Sanaa Rassol', 'Maimoona Qasim', 'Muhammad bin Aqeel']	.
+c303	Tuesday	11	11	CS221	Muhammad bin Qasim	['Shahzad Rashid', 'Sanaa Rassol', 'Aqeel Usman ']	.
+c306	Friday	15	17	CS217	Ayesha Bano	['Sanaa Rassol', 'Aqeel Usman ', 'Shahzad Rashid', 'Maimoona Qasim', 'Muhammad bin Aqeel', 'Bano']	.
+Dad Fitness Value:  750
+
+
+=================================------------======================================
+Our best solution is:
+c303	Thursday	17	17	CS221	Usman Rashid	['Shahzad Rashid', 'Bano', 'Sanaa Rassol']	.
+c310	Monday	12	15	CS221	Muhammad bin Qasim	['Maimoona Qasim', 'Shahzad Rashid', 'Sanaa Rassol', 'Muhammad bin Aqeel']	.
+c302	Friday	14	16	CS221	Sanaa Ilyas	['Aqeel Usman ', 'Sanaa Rassol', 'Maimoona Qasim', 'Shahzad Rashid', 'Muhammad bin Aqeel']	.
+c303	Thursday	17	17	CS217	Aqeel Shahzad	['Shahzad Rashid', 'Bano', 'Aqeel Usman ', 'Muhammad bin Aqeel']	.
+c301	Sunday	13	13	CS222	Muhammad bin Qasim	['Maimoona Qasim', 'Muhammad bin Aqeel']	.
+c309	Monday	9	17	CS221	Aqeel Shahzad	['Bano', 'Maimoona Qasim', 'Aqeel Usman ', 'Sanaa Rassol', 'Shahzad Rashid']	.
+c308	Thursday	14	15	CS218	Ayesha Bano	['Sanaa Rassol', 'Maimoona Qasim', 'Shahzad Rashid']	.
+c308	Tuesday	17	17	CS221	Maimoona Rassol	['Aqeel Usman ']	.
+c303	Saturday	10	10	CS217	Aqeel Shahzad	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Shahzad Rashid', 'Bano']	.
+c303	Monday	16	17	CS220	Usman Rashid	['Shahzad Rashid', 'Maimoona Qasim', 'Bano', 'Aqeel Usman ', 'Sanaa Rassol']	.
+c309	Monday	16	17	CS220	Sanaa Ilyas	['Muhammad bin Aqeel', 'Sanaa Rassol', 'Shahzad Rashid', 'Bano']	.
+c305	Thursday	9	12	CS217	Muhammad bin Qasim	['Sanaa Rassol', 'Muhammad bin Aqeel', 'Maimoona Qasim', 'Shahzad Rashid', 'Aqeel Usman ']	.
+c307	Wednesday	16	17	CS221	Ayesha Bano	['Maimoona Qasim', 'Aqeel Usman ', 'Sanaa Rassol']	.
+c301	Wednesday	17	17	CS222	Muhammad bin Qasim	['Sanaa Rassol', 'Shahzad Rashid', 'Bano', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Maimoona Qasim']	.
+c303	Saturday	13	14	CS220	Muhammad bin Qasim	['Maimoona Qasim', 'Aqeel Usman ', 'Shahzad Rashid', 'Bano']	.
+c303	Thursday	17	17	CS221	Ayesha Bano	['Muhammad bin Aqeel', 'Shahzad Rashid', 'Maimoona Qasim']	.
+c305	Sunday	14	14	CS217	Aqeel Shahzad	['Aqeel Usman ', 'Shahzad Rashid', 'Bano', 'Muhammad bin Aqeel']	.
+c305	Monday	13	13	CS219	Ayesha Bano	['Maimoona Qasim', 'Sanaa Rassol', 'Muhammad bin Aqeel', 'Shahzad Rashid']	.
+c308	Monday	9	10	CS220	Sanaa Ilyas	['Aqeel Usman ', 'Maimoona Qasim', 'Muhammad bin Aqeel', 'Shahzad Rashid']	.
+c305	Friday	17	17	CS220	Ayesha Bano	['Bano', 'Muhammad bin Aqeel']	.
+c302	Tuesday	15	15	CS221	Sanaa Ilyas	['Shahzad Rashid', 'Maimoona Qasim']	.
+c306	Friday	11	15	CS220	Usman Rashid	['Maimoona Qasim', 'Shahzad Rashid', 'Bano']	.
+c301	Thursday	17	17	CS217	Ayesha Bano	['Aqeel Usman ', 'Maimoona Qasim']	.
+c307	Wednesday	16	16	CS220	Ayesha Bano	['Bano', 'Shahzad Rashid', 'Aqeel Usman ']	.
+c303	Monday	9	15	CS221	Maimoona Rassol	['Aqeel Usman ', 'Maimoona Qasim', 'Sanaa Rassol']	.
+c303	Sunday	14	14	CS222	Ayesha Bano	['Sanaa Rassol']	.
+c302	Monday	17	17	CS217	Aqeel Shahzad	['Sanaa Rassol', 'Shahzad Rashid', 'Muhammad bin Aqeel', 'Maimoona Qasim', 'Aqeel Usman ']	.
+c308	Tuesday	13	15	CS220	Sanaa Ilyas	['Sanaa Rassol', 'Maimoona Qasim']	.
+c308	Saturday	13	14	CS217	Muhammad bin Qasim	['Bano']	.
+c301	Thursday	17	17	CS220	Maimoona Rassol	['Bano']	.
+c306	Sunday	10	14	CS217	Ayesha Bano	['Maimoona Qasim']	.
+c310	Tuesday	13	17	CS221	Usman Rashid	['Bano', 'Maimoona Qasim', 'Sanaa Rassol', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Shahzad Rashid']	.
+c301	Thursday	14	15	CS221	Muhammad bin Qasim	['Muhammad bin Aqeel', 'Aqeel Usman ', 'Sanaa Rassol']	.
+c308	Monday	16	16	CS218	Usman Rashid	['Aqeel Usman ', 'Shahzad Rashid', 'Bano', 'Sanaa Rassol', 'Muhammad bin Aqeel', 'Maimoona Qasim']	.
+c308	Wednesday	12	14	CS221	Maimoona Rassol	['Maimoona Qasim']	.
+c303	Sunday	13	14	CS222	Ayesha Bano	['Bano', 'Maimoona Qasim', 'Shahzad Rashid', 'Aqeel Usman ', 'Muhammad bin Aqeel', 'Sanaa Rassol']	.
+c306	Monday	16	16	CS220	Maimoona Rassol	['Aqeel Usman ']	.
+c302	Tuesday	16	17	CS219	Usman Rashid	['Shahzad Rashid', 'Bano', 'Maimoona Qasim', 'Muhammad bin Aqeel', 'Aqeel Usman ', 'Sanaa Rassol']	.
+c306	Monday	9	10	CS218	Sanaa Ilyas	['Sanaa Rassol']	.
+c303	Monday	16	16	CS220	Sanaa Ilyas	['Muhammad bin Aqeel', 'Maimoona Qasim']	.
+c306	Monday	17	17	CS222	Muhammad bin Qasim	['Muhammad bin Aqeel', 'Shahzad Rashid', 'Aqeel Usman ', 'Bano']	.
+c305	Saturday	9	16	CS221	Usman Rashid	['Sanaa Rassol', 'Shahzad Rashid', 'Aqeel Usman ', 'Bano', 'Maimoona Qasim', 'Muhammad bin Aqeel']	.
+
+Fitness value is:  1510
